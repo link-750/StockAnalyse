@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="StockAnalyseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Stock_List">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" />
+          <Property Name="ts_code" Type="varchar" MaxLength="255" />
+          <Property Name="symbol" Type="varchar" MaxLength="255" />
+          <Property Name="name" Type="varchar" MaxLength="255" />
+          <Property Name="area" Type="varchar" MaxLength="255" />
+          <Property Name="industry" Type="varchar" MaxLength="255" />
+          <Property Name="fullname" Type="varchar" MaxLength="255" />
+          <Property Name="enname" Type="varchar" MaxLength="255" />
+          <Property Name="market" Type="varchar" MaxLength="255" />
+          <Property Name="exchange" Type="varchar" MaxLength="255" />
+          <Property Name="curr_type" Type="varchar" MaxLength="255" />
+          <Property Name="list_status" Type="varchar" MaxLength="255" />
+          <Property Name="list_date" Type="datetime2" Precision="7" />
+          <Property Name="delist_date" Type="datetime2" Precision="7" />
+          <Property Name="is_hs" Type="varchar" MaxLength="255" />
+          <Property Name="Stock_Status" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityContainer Name="StockAnalyseModelStoreContainer">
+          <EntitySet Name="Stock_List" EntityType="Self.Stock_List" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="StockAnalyseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Stock_List">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" />
+          <Property Name="ts_code" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="symbol" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="area" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="industry" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="fullname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="enname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="market" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="exchange" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="curr_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="list_status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="list_date" Type="DateTime" Precision="7" />
+          <Property Name="delist_date" Type="DateTime" Precision="7" />
+          <Property Name="is_hs" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Stock_Status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="StockAnalyseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Stock_List" EntityType="Self.Stock_List" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="StockAnalyseModelStoreContainer" CdmEntityContainer="StockAnalyseEntities">
+          <EntitySetMapping Name="Stock_List">
+            <EntityTypeMapping TypeName="StockAnalyseModel.Stock_List">
+              <MappingFragment StoreEntitySet="Stock_List">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="ts_code" ColumnName="ts_code" />
+                <ScalarProperty Name="symbol" ColumnName="symbol" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="industry" ColumnName="industry" />
+                <ScalarProperty Name="fullname" ColumnName="fullname" />
+                <ScalarProperty Name="enname" ColumnName="enname" />
+                <ScalarProperty Name="market" ColumnName="market" />
+                <ScalarProperty Name="exchange" ColumnName="exchange" />
+                <ScalarProperty Name="curr_type" ColumnName="curr_type" />
+                <ScalarProperty Name="list_status" ColumnName="list_status" />
+                <ScalarProperty Name="list_date" ColumnName="list_date" />
+                <ScalarProperty Name="delist_date" ColumnName="delist_date" />
+                <ScalarProperty Name="is_hs" ColumnName="is_hs" />
+                <ScalarProperty Name="Stock_Status" ColumnName="Stock_Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

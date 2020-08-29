@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="StockAnalyseWindow.Views.Navigatebar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:local="clr-namespace:StockAnalyseWindow.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="300"
+             >
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding WindowLoadedDelegateCommad}"></i:InvokeCommandAction>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Grid Background="Yellow">
+        <ComboBox x:Name="StockType" Height="25" VerticalAlignment="Top" ItemsSource="{Binding StockTypeCollection}" DisplayMemberPath="StockTypeStr">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="SelectionChanged">
+                    <i:InvokeCommandAction Command="{Binding StockTypeSelectItemChangedDelegateCommand}" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </ComboBox>
+        <TextBox x:Name="StockSearchBox" Margin="0,25,50,0" Height="25" VerticalAlignment="Top">
+            <i:Interaction.Triggers>
+                <i:EventTrigger EventName="TextChanged">
+                    <i:InvokeCommandAction Command="{Binding StockTextChangedDelegateCommad}" />
+                </i:EventTrigger>
+            </i:Interaction.Triggers>
+        </TextBox>
+        <Button x:Name="StockSearchBtn" Content="搜索" Command="{Binding StockSearchDelegateCommand}" Margin="0,25,0,0" HorizontalAlignment="Right" Width="50" Height="25" VerticalAlignment="Top">
+
+        </Button>
+        <!-- 树形结构 -->
+        <TreeView x:Name="treeView" Margin="0,50,0,0"
+           ItemsSource="{Binding StockModelCollection}" BorderThickness="0">
+            <TreeView.ItemContainerStyle>
+                <Style TargetType="{x:Type TreeViewItem}">
+                    <Setter Property="IsExpanded" Value="{Binding IsExpanded, Mode=TwoWay}" />
+                    <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+                    <Setter Property="FontWeight" Value="Normal" />
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter Property="FontWeight" Value="Bold" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TreeView.ItemContainerStyle>
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding Children}">
+                    <TextBlock x:Name="treeViewItemTB" Text="{Binding itemName}" Tag="{Binding itemId}"/>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+    </Grid>
+</UserControl>

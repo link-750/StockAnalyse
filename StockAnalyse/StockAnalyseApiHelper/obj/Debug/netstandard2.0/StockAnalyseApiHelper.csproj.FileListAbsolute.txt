@@ -1,0 +1,4 @@
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseApiHelper\bin\Debug\netstandard2.0\StockAnalyseApiHelper.deps.json
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseApiHelper\bin\Debug\netstandard2.0\StockAnalyseApiHelper.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseApiHelper\obj\Debug\netstandard2.0\StockAnalyseApiHelper.AssemblyInfoInputs.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseApiHelper\obj\Debug\netstandard2.0\StockAnalyseApiHelper.AssemblyInfo.cs

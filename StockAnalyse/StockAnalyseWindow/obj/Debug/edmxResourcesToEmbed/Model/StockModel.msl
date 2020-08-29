@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StockAnalyseModelStoreContainer" CdmEntityContainer="StockAnalyseEntities">
+    <EntitySetMapping Name="Stock_List">
+      <EntityTypeMapping TypeName="StockAnalyseModel.Stock_List">
+        <MappingFragment StoreEntitySet="Stock_List">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ts_code" ColumnName="ts_code" />
+          <ScalarProperty Name="symbol" ColumnName="symbol" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="area" ColumnName="area" />
+          <ScalarProperty Name="industry" ColumnName="industry" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="enname" ColumnName="enname" />
+          <ScalarProperty Name="market" ColumnName="market" />
+          <ScalarProperty Name="exchange" ColumnName="exchange" />
+          <ScalarProperty Name="curr_type" ColumnName="curr_type" />
+          <ScalarProperty Name="list_status" ColumnName="list_status" />
+          <ScalarProperty Name="list_date" ColumnName="list_date" />
+          <ScalarProperty Name="delist_date" ColumnName="delist_date" />
+          <ScalarProperty Name="is_hs" ColumnName="is_hs" />
+          <ScalarProperty Name="Stock_Status" ColumnName="Stock_Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

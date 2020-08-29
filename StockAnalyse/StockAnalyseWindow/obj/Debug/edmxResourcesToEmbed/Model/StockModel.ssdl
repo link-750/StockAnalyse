@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StockAnalyseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Stock_List">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="ts_code" Type="varchar" MaxLength="255" />
+    <Property Name="symbol" Type="varchar" MaxLength="255" />
+    <Property Name="name" Type="varchar" MaxLength="255" />
+    <Property Name="area" Type="varchar" MaxLength="255" />
+    <Property Name="industry" Type="varchar" MaxLength="255" />
+    <Property Name="fullname" Type="varchar" MaxLength="255" />
+    <Property Name="enname" Type="varchar" MaxLength="255" />
+    <Property Name="market" Type="varchar" MaxLength="255" />
+    <Property Name="exchange" Type="varchar" MaxLength="255" />
+    <Property Name="curr_type" Type="varchar" MaxLength="255" />
+    <Property Name="list_status" Type="varchar" MaxLength="255" />
+    <Property Name="list_date" Type="datetime2" Precision="7" />
+    <Property Name="delist_date" Type="datetime2" Precision="7" />
+    <Property Name="is_hs" Type="varchar" MaxLength="255" />
+    <Property Name="Stock_Status" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityContainer Name="StockAnalyseModelStoreContainer">
+    <EntitySet Name="Stock_List" EntityType="Self.Stock_List" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
