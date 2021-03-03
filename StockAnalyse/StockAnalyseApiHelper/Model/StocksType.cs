@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace StockAnalyseApiHelper.Model
 {
     
-    public enum StockType
+    public enum StocksType
 
     {
 

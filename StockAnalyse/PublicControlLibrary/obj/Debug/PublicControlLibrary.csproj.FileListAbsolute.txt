@@ -1,0 +1,16 @@
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\bin\Debug\PublicControlLibrary.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\bin\Debug\PublicControlLibrary.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\LineChart\Candle.g.cs
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\LineChart\LineChart.g.cs
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary_MarkupCompile.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary_MarkupCompile.lref
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\LineChart\Candle.baml
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\LineChart\LineChart.baml
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\Themes\Generic.baml
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.g.resources
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.Properties.Resources.resources
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.csproj.GenerateResource.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.csproj.CoreCompileInputs.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.pdb

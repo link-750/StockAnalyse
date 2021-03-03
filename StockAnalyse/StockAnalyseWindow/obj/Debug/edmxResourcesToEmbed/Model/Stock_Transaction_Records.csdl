@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StockTransactionRecords" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Stock_Transaction_Records">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ts_code" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="trade_date" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="open" Type="Double" />
+    <Property Name="high" Type="Double" />
+    <Property Name="low" Type="Double" />
+    <Property Name="close" Type="Double" />
+    <Property Name="pre_close" Type="Double" />
+    <Property Name="change" Type="Double" />
+    <Property Name="pct_chg" Type="Double" />
+    <Property Name="vol" Type="Double" />
+    <Property Name="amount" Type="Double" />
+  </EntityType>
+  <EntityContainer Name="StockAnalyseEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Stock_Transaction_Records" EntityType="Self.Stock_Transaction_Records" />
+  </EntityContainer>
+</Schema>

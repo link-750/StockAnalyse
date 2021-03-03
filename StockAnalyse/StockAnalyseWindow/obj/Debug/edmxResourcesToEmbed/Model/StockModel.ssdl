@@ -4,7 +4,7 @@
     <Key>
       <PropertyRef Name="id" />
     </Key>
-    <Property Name="id" Type="int" Nullable="false" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="ts_code" Type="varchar" MaxLength="255" />
     <Property Name="symbol" Type="varchar" MaxLength="255" />
     <Property Name="name" Type="varchar" MaxLength="255" />
@@ -16,9 +16,9 @@
     <Property Name="exchange" Type="varchar" MaxLength="255" />
     <Property Name="curr_type" Type="varchar" MaxLength="255" />
     <Property Name="list_status" Type="varchar" MaxLength="255" />
-    <Property Name="list_date" Type="datetime2" Precision="7" />
-    <Property Name="delist_date" Type="datetime2" Precision="7" />
+    <Property Name="list_date" Type="varchar" MaxLength="255" />
     <Property Name="is_hs" Type="varchar" MaxLength="255" />
+    <Property Name="delist_date" Type="varchar" MaxLength="255" />
     <Property Name="Stock_Status" Type="varchar" MaxLength="255" />
   </EntityType>
   <EntityContainer Name="StockAnalyseModelStoreContainer">

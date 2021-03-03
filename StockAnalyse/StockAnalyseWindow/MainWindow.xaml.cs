@@ -1,5 +1,5 @@
-﻿using Prism.Regions;
-using StockAnalyseWindow.Views;
+﻿using Prism.Ioc;
+using Prism.Regions;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,26 +22,39 @@ namespace StockAnalyseWindow
     /// </summary>
     public partial class MainWindow : Window
     {
-        private IRegionManager regionManager;
-        private IContainer container;
+        IContainerExtension _container;
+        IRegionManager _regionManager;
+
+       
         public MainWindow()
         {
             InitializeComponent();
+            //this.Loaded += (s,e)=> { ConstructRegion(); };
 
-        }
-        public MainWindow(IRegionManager RegionManager):this()
+        }      
+        public MainWindow(IContainerExtension container, IRegionManager regionManager) : this()
         {
-           
-            regionManager = RegionManager;                      
-            InitMainShell();
+            _container = container;
+            _regionManager = regionManager;
         }
-        private void InitMainShell()
+        private void ConstructRegion()
         {
-            regionManager.RegisterViewWithRegion("MenubarRegion",typeof(Menubar));
-            regionManager.RegisterViewWithRegion("ToolbarRegion", typeof(Views.ToolBar));
-            regionManager.RegisterViewWithRegion("StatusbarRegion",typeof(Statusbar));
-            regionManager.RegisterViewWithRegion("NavigateRegion", typeof(Navigatebar));
-            //regionManager.RegisterViewWithRegion("ContentRegion", typeof(Content));
+            //var ContentView = _container.Resolve<Content>();
+            //var MenubarView = _container.Resolve<Menubar>();
+            //var ToolBarView = _container.Resolve<Views.ToolBar>();
+            //var NavigatebarView = _container.Resolve<Navigatebar>();
+            //var StatusbarView = _container.Resolve<Statusbar>();
+            //IRegion region = _regionManager.Regions["MenubarRegion"];
+            //region.Add(MenubarView);
+            //region = _regionManager.Regions["ContentRegion"];
+            //region.Add(ContentView);
+            //region = _regionManager.Regions["ToolbarRegion"];
+            //region.Add(ToolBarView);
+            //region = _regionManager.Regions["NavigateRegion"];
+            //region.Add(NavigatebarView);
+            //region = _regionManager.Regions["StatusbarRegion"];
+            //region.Add(StatusbarView);
         }
+        
     }
 }

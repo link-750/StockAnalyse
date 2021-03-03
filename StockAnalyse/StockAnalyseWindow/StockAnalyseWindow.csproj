@@ -50,6 +50,9 @@
     <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
       <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="Prism, Version=7.2.0.1422, Culture=neutral, PublicKeyToken=40ee6c3a2184dc59, processorArchitecture=MSIL">
       <HintPath>..\packages\Prism.Core.7.2.0.1422\lib\net45\Prism.dll</HintPath>
     </Reference>
@@ -101,41 +104,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Model\StockModel.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>StockModel.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\StockModel.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>StockModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Model\StockModel.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>StockModel.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="Model\StockType.cs" />
-    <Compile Include="Model\Stock_List.cs">
-      <DependentUpon>StockModel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ViewModel\NavigatebarViewModel.cs" />
-    <Compile Include="Views\Content.xaml.cs">
-      <DependentUpon>Content.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Menubar.xaml.cs">
-      <DependentUpon>Menubar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Navigatebar.xaml.cs">
-      <DependentUpon>Navigatebar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\Statusbar.xaml.cs">
-      <DependentUpon>Statusbar.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\ToolBar.xaml.cs">
-      <DependentUpon>ToolBar.xaml</DependentUpon>
-    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -148,26 +116,6 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\Content.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Menubar.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Navigatebar.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\Statusbar.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\ToolBar.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -187,39 +135,30 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EntityDeploy Include="Model\StockModel.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>StockModel.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="Model\StockModel.edmx.diagram">
-      <DependentUpon>StockModel.edmx</DependentUpon>
-    </None>
+    <None Include="App.Config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ContenViews\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Model\StockModel.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>StockModel.Context.cs</LastGenOutput>
-      <DependentUpon>StockModel.edmx</DependentUpon>
-    </Content>
-    <Content Include="Model\StockModel.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>StockModel.edmx</DependentUpon>
-      <LastGenOutput>StockModel.cs</LastGenOutput>
-    </Content>
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StockAnalyseApiHelper\StockAnalyseApiHelper.csproj">
+      <Project>{7bdf6c6b-dadf-4409-a325-887b3a001367}</Project>
+      <Name>StockAnalyseApiHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockAnalyseEvent\StockAnalyseEvent.csproj">
+      <Project>{ee3b6394-f196-4f66-8b9c-a9d521582d99}</Project>
+      <Name>StockAnalyseEvent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockAnalyseModel\StockAnalyseModel.csproj">
+      <Project>{0d556f66-44ad-4327-a46d-65c93119b875}</Project>
+      <Name>StockAnalyseModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

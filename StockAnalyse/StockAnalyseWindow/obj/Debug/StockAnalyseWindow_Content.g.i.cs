@@ -10,5 +10,9 @@
 
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("model/stockmodel.context.tt")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("model/stockmodel.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("model/stockstatus.context.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("model/stockstatus.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("model/stock_transaction_records.context.tt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("model/stock_transaction_records.tt")]
 
 

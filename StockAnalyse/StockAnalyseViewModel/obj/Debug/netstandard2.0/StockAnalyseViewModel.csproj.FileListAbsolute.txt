@@ -1,0 +1,9 @@
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseViewModel\bin\Debug\netstandard2.0\StockAnalyseViewModel.deps.json
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseViewModel\bin\Debug\netstandard2.0\StockAnalyseViewModel.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseViewModel\bin\Debug\netstandard2.0\StockAnalyseViewModel.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseViewModel\obj\Debug\netstandard2.0\StockAnalyseViewModel.csprojAssemblyReference.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseViewModel\obj\Debug\netstandard2.0\StockAnalyseViewModel.AssemblyInfoInputs.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseViewModel\obj\Debug\netstandard2.0\StockAnalyseViewModel.AssemblyInfo.cs
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseViewModel\obj\Debug\netstandard2.0\StockAnalyseViewModel.csproj.CoreCompileInputs.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseViewModel\obj\Debug\netstandard2.0\StockAnalyseViewModel.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseViewModel\obj\Debug\netstandard2.0\StockAnalyseViewModel.pdb

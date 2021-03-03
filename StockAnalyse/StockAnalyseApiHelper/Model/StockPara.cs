@@ -16,9 +16,9 @@ namespace StockAnalyseApiHelper.Model
 
             public string token { get; set; }
 
-            public Dictionary<string, string> sparams { get; set; }
+            public Dictionary<string, string> Params { get; set; }
 
-            public string fields { get; set; }
+            public string Fields { get; set; }
 
       
     }

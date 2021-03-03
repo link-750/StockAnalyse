@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StockAnalyseDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Stock_List">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ts_code" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="symbol" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="area" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="industry" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="fullname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="enname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="market" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="exchange" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="curr_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="list_status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="list_date" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="is_hs" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="delist_date" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Stock_Status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Stock_Status">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="cn_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="en_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="stock_status1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Stock_Transaction_Records">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ts_code" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="trade_date" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="open" Type="Double" />
+    <Property Name="high" Type="Double" />
+    <Property Name="low" Type="Double" />
+    <Property Name="close" Type="Double" />
+    <Property Name="pre_close" Type="Double" />
+    <Property Name="change" Type="Double" />
+    <Property Name="pct_chg" Type="Double" />
+    <Property Name="vol" Type="Double" />
+    <Property Name="amount" Type="Double" />
+  </EntityType>
+  <EntityContainer Name="StockAnalyseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Stock_List" EntityType="Self.Stock_List" />
+    <EntitySet Name="Stock_Status" EntityType="Self.Stock_Status" />
+    <EntitySet Name="Stock_Transaction_Records" EntityType="Self.Stock_Transaction_Records" />
+  </EntityContainer>
+</Schema>

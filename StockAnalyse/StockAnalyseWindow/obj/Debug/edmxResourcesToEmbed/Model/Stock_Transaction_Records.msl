@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StockTransactionRecordsStoreContainer" CdmEntityContainer="StockAnalyseEntities2">
+    <EntitySetMapping Name="Stock_Transaction_Records">
+      <EntityTypeMapping TypeName="StockTransactionRecords.Stock_Transaction_Records">
+        <MappingFragment StoreEntitySet="Stock_Transaction_Records">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="ts_code" ColumnName="ts_code" />
+          <ScalarProperty Name="trade_date" ColumnName="trade_date" />
+          <ScalarProperty Name="open" ColumnName="open" />
+          <ScalarProperty Name="high" ColumnName="high" />
+          <ScalarProperty Name="low" ColumnName="low" />
+          <ScalarProperty Name="close" ColumnName="close" />
+          <ScalarProperty Name="pre_close" ColumnName="pre_close" />
+          <ScalarProperty Name="change" ColumnName="change" />
+          <ScalarProperty Name="pct_chg" ColumnName="pct_chg" />
+          <ScalarProperty Name="vol" ColumnName="vol" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

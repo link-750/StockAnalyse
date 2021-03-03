@@ -1,0 +1,16 @@
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\bin\Debug\netstandard2.0\StockAnalyseEvent.deps.json
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\bin\Debug\netstandard2.0\StockAnalyseEvent.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\bin\Debug\netstandard2.0\StockAnalyseEvent.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\bin\Debug\netstandard2.0\StockAnalyseModel.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\bin\Debug\netstandard2.0\EntityFramework.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\bin\Debug\netstandard2.0\StockAnalyseModel.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\bin\Debug\netstandard2.0\StockAnalyseModel.dll.config
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\bin\Debug\netstandard2.0\EntityFramework.xml
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\bin\Debug\netstandard2.0\zh-Hans\EntityFramework.resources.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\obj\Debug\netstandard2.0\StockAnalyseEvent.csprojAssemblyReference.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\obj\Debug\netstandard2.0\StockAnalyseEvent.AssemblyInfoInputs.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\obj\Debug\netstandard2.0\StockAnalyseEvent.AssemblyInfo.cs
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\obj\Debug\netstandard2.0\StockAnalyseEvent.csproj.CoreCompileInputs.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\obj\Debug\netstandard2.0\StockAnalyseEvent.csproj.CopyComplete
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\obj\Debug\netstandard2.0\StockAnalyseEvent.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseEvent\obj\Debug\netstandard2.0\StockAnalyseEvent.pdb
