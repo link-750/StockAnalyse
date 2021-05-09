@@ -16,16 +16,17 @@ namespace StockAnalyseApiHelper.Helper
     {
         static string url = "http://api.waditu.com ";
         static string Token = "dd6b9ed51e7ba757dafbd1398fb8dae5bcbf92507032be9d414b83ba";
-        public string GetStockInfo(StockType stockType, Dictionary<string, string> sparams, string fields = "")
+        public Task<string> GetStockInfo(StocksType stockType, Dictionary<string, string> sparams, string fields = "")
         {
+            return Task.Run(()=> {            
             StockPara para = new StockPara();
             para.api_name = stockType.ToString();
-            para.sparams = sparams;
+            para.Params = sparams;
             para.token = Token;
-            para.fields = fields;
-            var JsonStr = JsonConvert.SerializeObject(para);      
+            para.Fields = fields;
+            string JsonStr = JsonConvert.SerializeObject(para).Replace("Params", "params");      
 
-            string result = "";
+            
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
             req.Method = "POST";
             req.ContentType = "application/json";
@@ -39,13 +40,13 @@ namespace StockAnalyseApiHelper.Helper
             HttpWebResponse resp = (HttpWebResponse)req.GetResponse(); //响应结果
             Stream stream = resp.GetResponseStream();
             //获取响应内容
+            var result="";
             using (StreamReader reader = new StreamReader(stream, Encoding.UTF8))
             {
                 result = reader.ReadToEnd();
             }
-
             return result;
-            
+            });
         }
 
     }

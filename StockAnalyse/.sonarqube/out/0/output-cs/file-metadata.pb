@@ -1,0 +1,10 @@
+_
+VE:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\Properties\AssemblyInfo.csutf-8^
+SE:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\StockDBModel.Context.csutf-8V
+KE:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\StockDBModel.csutf-8_
+TE:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\StockDBModel.Designer.csutf-8Z
+QE:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\StockModelTreeItem.csutf-8T
+IE:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\Stock_List.csutf-8V
+KE:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\Stock_Status.csutf-8c
+XE:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\Stock_Transaction_Records.csutf-8g
+\C:\Users\Administrator\AppData\Local\Temp\.NETFramework,Version=v4.7.2.AssemblyAttributes.csutf-8

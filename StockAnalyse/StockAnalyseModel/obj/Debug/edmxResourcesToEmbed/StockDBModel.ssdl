@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StockAnalyseDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Stock_List">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ts_code" Type="varchar" MaxLength="255" />
+    <Property Name="symbol" Type="varchar" MaxLength="255" />
+    <Property Name="name" Type="varchar" MaxLength="255" />
+    <Property Name="area" Type="varchar" MaxLength="255" />
+    <Property Name="industry" Type="varchar" MaxLength="255" />
+    <Property Name="fullname" Type="varchar" MaxLength="255" />
+    <Property Name="enname" Type="varchar" MaxLength="255" />
+    <Property Name="market" Type="varchar" MaxLength="255" />
+    <Property Name="exchange" Type="varchar" MaxLength="255" />
+    <Property Name="curr_type" Type="varchar" MaxLength="255" />
+    <Property Name="list_status" Type="varchar" MaxLength="255" />
+    <Property Name="list_date" Type="varchar" MaxLength="255" />
+    <Property Name="is_hs" Type="varchar" MaxLength="255" />
+    <Property Name="delist_date" Type="varchar" MaxLength="255" />
+    <Property Name="Stock_Status" Type="varchar" MaxLength="255" />
+  </EntityType>
+  <EntityType Name="Stock_Status">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="cn_name" Type="varchar" MaxLength="255" />
+    <Property Name="en_name" Type="varchar" MaxLength="255" />
+    <Property Name="stock_status" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Stock_Transaction_Records">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ts_code" Type="varchar" MaxLength="255" />
+    <Property Name="trade_date" Type="varchar" MaxLength="255" />
+    <Property Name="open" Type="float" />
+    <Property Name="high" Type="float" />
+    <Property Name="low" Type="float" />
+    <Property Name="close" Type="float" />
+    <Property Name="pre_close" Type="float" />
+    <Property Name="change" Type="float" />
+    <Property Name="pct_chg" Type="float" />
+    <Property Name="vol" Type="float" />
+    <Property Name="amount" Type="float" />
+  </EntityType>
+  <EntityContainer Name="StockAnalyseDBModelStoreContainer">
+    <EntitySet Name="Stock_List" EntityType="Self.Stock_List" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Stock_Status" EntityType="Self.Stock_Status" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Stock_Transaction_Records" EntityType="Self.Stock_Transaction_Records" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="ModuleStockTool.Views.ToolBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ModuleStockTool.Views"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" BorderThickness="2,2" BorderBrush="Black" Background="Green">
+    <Grid>
+        <ToolBar DockPanel.Dock="Top">
+            <!--ToolBar和StatusBar就是一个容器-->
+            <Button Content="Save"></Button>
+            <Button Content="SaveAll"></Button>
+            <Button Content="FileExplorer"></Button>
+            <Button Content="Start"></Button>
+            <Button Content="Test"></Button>
+        </ToolBar>
+    </Grid>
+</UserControl>

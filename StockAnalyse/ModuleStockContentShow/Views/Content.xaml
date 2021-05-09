@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="ModuleStockContentShow.Views.Content"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ModuleStockContentShow.Views"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"            
+             xmlns:prism="http://prismlibrary.com/" 
+             xmlns:MyNamespace1="clr-namespace:PublicControlLibrary.LineChart;assembly=PublicControlLibrary"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    
+    <Grid >
+        <!--<MyNamespace:LineChart></MyNamespace:LineChart>-->
+        <!--<lvc:CartesianChart LegendLocation="Right" Margin="15,0">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis  FontSize="12" Labels="{Binding Path=XTimeLabels}" Title="时间" LabelsRotation="40">
+                    <lvc:Axis.Separator>                       
+                        <lvc:Separator Step="1" IsEnabled="False"/>
+                    </lvc:Axis.Separator>
+                </lvc:Axis>
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis  FontSize="12" Title="价格" LabelFormatter="{Binding Path=YFormatterLine}">
+                    <lvc:Axis.Separator>
+                        <lvc:Separator Stroke="#33ffffff" StrokeDashArray="10"/>
+                    </lvc:Axis.Separator>
+                </lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+            <lvc:CartesianChart.Series>
+                <lvc:LineSeries Values="{Binding OpenPrice}" PointGeometrySize="2" Stroke="#00f5ff" Fill="#1100f5ff" LineSmoothness="0" Title="开盘价格"/>
+
+                <lvc:LineSeries Values="{Binding LowPrice}" PointGeometrySize="2" Stroke="#ccffcc" Fill="#11ccffcc" LineSmoothness="0" Title="最低价格"/>
+
+                <lvc:LineSeries Values="{Binding HighPrice}" PointGeometrySize="2" Stroke="#333399" Fill="#11333399" LineSmoothness="0" Title="最高价格"/>
+
+                <lvc:LineSeries Values="{Binding ClosePrice}" PointGeometrySize="2" Stroke="#9966cc" Fill="#119966cc" LineSmoothness="0" Title="收盘价格"/>
+
+            </lvc:CartesianChart.Series>
+
+            <lvc:CartesianChart.ChartLegend>               
+                <lvc:DefaultLegend BulletSize="12" />
+            </lvc:CartesianChart.ChartLegend>
+
+        </lvc:CartesianChart>-->
+
+        <MyNamespace1:LineChart ItemSource="{Binding }"></MyNamespace1:LineChart>
+    </Grid>
+</UserControl>

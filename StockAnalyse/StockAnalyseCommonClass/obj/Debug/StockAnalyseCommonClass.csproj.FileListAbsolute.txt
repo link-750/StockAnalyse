@@ -1,0 +1,4 @@
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseCommonClass\bin\Debug\StockAnalyseCommonClass.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseCommonClass\bin\Debug\StockAnalyseCommonClass.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseCommonClass\obj\Debug\StockAnalyseCommonClass.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseCommonClass\obj\Debug\StockAnalyseCommonClass.pdb

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>ModuleStockMenu</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>1ed9e7f2-afa1-4599-bedf-f1b9d5be507a</ProjectGuid>
+  <FullPath>E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\ModuleStockMenu.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="E:\SoftProjects\StockAnalyse\StockAnalyse\.sonarqube\conf\3\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\bin\Debug\ModuleStockMenu.dll.RoslynCA.json|E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\bin\Debug\ModuleStockMenu.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">E:\SoftProjects\StockAnalyse\StockAnalyse\.sonarqube\out\3</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+</ProjectInfo>

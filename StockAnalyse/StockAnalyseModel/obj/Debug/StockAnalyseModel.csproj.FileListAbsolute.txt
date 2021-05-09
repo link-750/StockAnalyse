@@ -1,0 +1,17 @@
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\StockAnalyseModel.dll.config
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\StockAnalyseModel.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\StockAnalyseModel.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\EntityFramework.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\EntityFramework.SqlServer.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\Prism.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\System.ValueTuple.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\EntityFramework.xml
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\EntityFramework.SqlServer.xml
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\Prism.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\Prism.xml
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\System.ValueTuple.xml
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\zh-Hans\EntityFramework.resources.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\obj\Debug\StockAnalyseModel.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\obj\Debug\StockAnalyseModel.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\obj\Debug\StockAnalyseModel.csprojResolveAssemblyReference.cache
