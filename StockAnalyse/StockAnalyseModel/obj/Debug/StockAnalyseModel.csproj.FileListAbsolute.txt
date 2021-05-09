@@ -14,4 +14,6 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\zh-Hans\En
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\obj\Debug\StockAnalyseModel.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\obj\Debug\StockAnalyseModel.pdb
-E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\obj\Debug\StockAnalyseModel.csprojResolveAssemblyReference.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\obj\Debug\StockAnalyseModel.csprojAssemblyReference.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\obj\Debug\StockAnalyseModel.csproj.CoreCompileInputs.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseModel\obj\Debug\StockAnalyseModel.csproj.CopyComplete

@@ -17,4 +17,6 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\Views\Menuba
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.g.resources
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.pdb
-E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.csprojResolveAssemblyReference.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.csprojAssemblyReference.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.csproj.CoreCompileInputs.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.csproj.CopyComplete

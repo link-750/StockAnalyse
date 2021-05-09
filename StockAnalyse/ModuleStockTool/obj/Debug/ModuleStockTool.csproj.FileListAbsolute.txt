@@ -17,3 +17,6 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockTool\obj\Debug\Views\ToolBa
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockTool\obj\Debug\ModuleStockTool.g.resources
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockTool\obj\Debug\ModuleStockTool.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockTool\obj\Debug\ModuleStockTool.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockTool\obj\Debug\ModuleStockTool.csprojAssemblyReference.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockTool\obj\Debug\ModuleStockTool.csproj.CoreCompileInputs.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockTool\obj\Debug\ModuleStockTool.csproj.CopyComplete

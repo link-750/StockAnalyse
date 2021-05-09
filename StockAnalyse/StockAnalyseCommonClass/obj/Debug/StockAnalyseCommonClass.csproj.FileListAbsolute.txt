@@ -2,3 +2,5 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseCommonClass\bin\Debug\Stoc
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseCommonClass\bin\Debug\StockAnalyseCommonClass.pdb
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseCommonClass\obj\Debug\StockAnalyseCommonClass.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseCommonClass\obj\Debug\StockAnalyseCommonClass.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseCommonClass\obj\Debug\StockAnalyseCommonClass.csprojAssemblyReference.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseCommonClass\obj\Debug\StockAnalyseCommonClass.csproj.CoreCompileInputs.cache

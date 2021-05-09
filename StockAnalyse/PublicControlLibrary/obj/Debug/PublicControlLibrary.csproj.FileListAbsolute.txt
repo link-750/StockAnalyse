@@ -13,3 +13,5 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicC
 E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.csproj.GenerateResource.cache
 E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.csprojAssemblyReference.cache
+E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\PublicControlLibrary.csproj.CoreCompileInputs.cache
