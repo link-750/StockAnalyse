@@ -15,7 +15,6 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockM
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu_MarkupCompile.lref
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\Views\Menubar.baml
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.g.resources
-E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.csproj.CoreCompileInputs.cache
-E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.csproj.CopyComplete
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockMenu\obj\Debug\ModuleStockMenu.csprojResolveAssemblyReference.cache

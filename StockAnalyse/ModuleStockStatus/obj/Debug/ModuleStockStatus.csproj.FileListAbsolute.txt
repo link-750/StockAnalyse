@@ -15,7 +15,5 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockStatus\obj\Debug\ModuleStoc
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockStatus\obj\Debug\ModuleStockStatus_MarkupCompile.lref
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockStatus\obj\Debug\Views\Statusbar.baml
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockStatus\obj\Debug\ModuleStockStatus.g.resources
-E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockStatus\obj\Debug\ModuleStockStatus.csproj.CoreCompileInputs.cache
-E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockStatus\obj\Debug\ModuleStockStatus.csproj.CopyComplete
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockStatus\obj\Debug\ModuleStockStatus.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockStatus\obj\Debug\ModuleStockStatus.pdb

@@ -1,5 +1,3 @@
-E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\EntityFramework.SqlServer.xml
-E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\Prism.Wpf.xml
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\StockAnalyseWindow.exe.config
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\StockAnalyseWindow.exe
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\StockAnalyseWindow.pdb
@@ -26,6 +24,7 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\StockAnal
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\StockAnalyseModel.pdb
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\StockAnalyseModel.dll.config
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\EntityFramework.xml
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\EntityFramework.SqlServer.xml
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\LiveCharts.pdb
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\LiveCharts.xml
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\LiveCharts.Wpf.pdb
@@ -36,6 +35,7 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\Prism.xml
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\Prism.Unity.Wpf.pdb
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\Prism.Unity.Wpf.xml
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\Prism.Wpf.pdb
+E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\Prism.Wpf.xml
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\System.Threading.Tasks.Extensions.xml
 E:\SoftProjects\StockAnalyse\StockAnalyse\StockAnalyseWindow\bin\Debug\System.ValueTuple.xml

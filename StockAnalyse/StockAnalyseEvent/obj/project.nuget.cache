@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wubfXNPSRzIg4zhZJeTnhtspESK0sDEWDyfMxpiZ0KK9aS7EcUAckvJGmqIEwX25uNCGyKtUFxTr24QHaCR8HQ==",
+  "dgSpecHash": "oYjbZcT1XIuEWIDjC9YxeXK40h9BES+3jvmN3GKD0ebwi3wqaPehxyrZkZTKIb3vobj3dxDBM7hDVp82oHx/QQ==",
   "success": true,
   "projectFilePath": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseEvent\\StockAnalyseEvent.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512"
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\prism.core\\7.2.0.1422\\prism.core.7.2.0.1422.nupkg.sha512"
   ],
   "logs": []
 }

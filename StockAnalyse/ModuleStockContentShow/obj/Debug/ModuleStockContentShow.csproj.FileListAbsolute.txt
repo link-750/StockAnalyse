@@ -9,11 +9,13 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\LiveC
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\Newtonsoft.Json.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\Prism.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\Prism.Wpf.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\PublicControlLibrary.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\StockAnalyseApiHelper.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\StockAnalyseEvent.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\StockAnalyseModel.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\System.ValueTuple.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\System.Windows.Interactivity.dll
+E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\PublicControlLibrary.pdb
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\StockAnalyseApiHelper.pdb
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\StockAnalyseEvent.pdb
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\StockAnalyseModel.pdb
@@ -42,5 +44,3 @@ E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\obj\Debug\Modul
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\obj\Debug\ModuleStockContentShow.csproj.CopyComplete
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\obj\Debug\ModuleStockContentShow.dll
 E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\obj\Debug\ModuleStockContentShow.pdb
-E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\PublicControlLibrary.dll
-E:\SoftProjects\StockAnalyse\StockAnalyse\ModuleStockContentShow\bin\Debug\PublicControlLibrary.pdb
