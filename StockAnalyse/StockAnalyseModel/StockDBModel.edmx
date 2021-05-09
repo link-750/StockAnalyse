@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="StockAnalyseDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Stock_List">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ts_code" Type="varchar" MaxLength="255" />
+          <Property Name="symbol" Type="varchar" MaxLength="255" />
+          <Property Name="name" Type="varchar" MaxLength="255" />
+          <Property Name="area" Type="varchar" MaxLength="255" />
+          <Property Name="industry" Type="varchar" MaxLength="255" />
+          <Property Name="fullname" Type="varchar" MaxLength="255" />
+          <Property Name="enname" Type="varchar" MaxLength="255" />
+          <Property Name="market" Type="varchar" MaxLength="255" />
+          <Property Name="exchange" Type="varchar" MaxLength="255" />
+          <Property Name="curr_type" Type="varchar" MaxLength="255" />
+          <Property Name="list_status" Type="varchar" MaxLength="255" />
+          <Property Name="list_date" Type="varchar" MaxLength="255" />
+          <Property Name="is_hs" Type="varchar" MaxLength="255" />
+          <Property Name="delist_date" Type="varchar" MaxLength="255" />
+          <Property Name="Stock_Status" Type="varchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="Stock_Status">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="cn_name" Type="varchar" MaxLength="255" />
+          <Property Name="en_name" Type="varchar" MaxLength="255" />
+          <Property Name="stock_status" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Stock_Transaction_Records">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ts_code" Type="varchar" MaxLength="255" />
+          <Property Name="trade_date" Type="varchar" MaxLength="255" />
+          <Property Name="open" Type="float" />
+          <Property Name="high" Type="float" />
+          <Property Name="low" Type="float" />
+          <Property Name="close" Type="float" />
+          <Property Name="pre_close" Type="float" />
+          <Property Name="change" Type="float" />
+          <Property Name="pct_chg" Type="float" />
+          <Property Name="vol" Type="float" />
+          <Property Name="amount" Type="float" />
+        </EntityType>
+        <EntityContainer Name="StockAnalyseDBModelStoreContainer">
+          <EntitySet Name="Stock_List" EntityType="Self.Stock_List" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Stock_Status" EntityType="Self.Stock_Status" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Stock_Transaction_Records" EntityType="Self.Stock_Transaction_Records" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="StockAnalyseDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Stock_List">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ts_code" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="symbol" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="area" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="industry" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="fullname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="enname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="market" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="exchange" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="curr_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="list_status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="list_date" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="is_hs" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="delist_date" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="Stock_Status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Stock_Status">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="cn_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="en_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="stock_status1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Stock_Transaction_Records">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ts_code" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="trade_date" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="open" Type="Double" />
+          <Property Name="high" Type="Double" />
+          <Property Name="low" Type="Double" />
+          <Property Name="close" Type="Double" />
+          <Property Name="pre_close" Type="Double" />
+          <Property Name="change" Type="Double" />
+          <Property Name="pct_chg" Type="Double" />
+          <Property Name="vol" Type="Double" />
+          <Property Name="amount" Type="Double" />
+        </EntityType>
+        <EntityContainer Name="StockAnalyseEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Stock_List" EntityType="Self.Stock_List" />
+          <EntitySet Name="Stock_Status" EntityType="Self.Stock_Status" />
+          <EntitySet Name="Stock_Transaction_Records" EntityType="Self.Stock_Transaction_Records" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="StockAnalyseDBModelStoreContainer" CdmEntityContainer="StockAnalyseEntities">
+          <EntitySetMapping Name="Stock_List">
+            <EntityTypeMapping TypeName="StockAnalyseDBModel.Stock_List">
+              <MappingFragment StoreEntitySet="Stock_List">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="ts_code" ColumnName="ts_code" />
+                <ScalarProperty Name="symbol" ColumnName="symbol" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="area" ColumnName="area" />
+                <ScalarProperty Name="industry" ColumnName="industry" />
+                <ScalarProperty Name="fullname" ColumnName="fullname" />
+                <ScalarProperty Name="enname" ColumnName="enname" />
+                <ScalarProperty Name="market" ColumnName="market" />
+                <ScalarProperty Name="exchange" ColumnName="exchange" />
+                <ScalarProperty Name="curr_type" ColumnName="curr_type" />
+                <ScalarProperty Name="list_status" ColumnName="list_status" />
+                <ScalarProperty Name="list_date" ColumnName="list_date" />
+                <ScalarProperty Name="is_hs" ColumnName="is_hs" />
+                <ScalarProperty Name="delist_date" ColumnName="delist_date" />
+                <ScalarProperty Name="Stock_Status" ColumnName="Stock_Status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Stock_Status">
+            <EntityTypeMapping TypeName="StockAnalyseDBModel.Stock_Status">
+              <MappingFragment StoreEntitySet="Stock_Status">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="cn_name" ColumnName="cn_name" />
+                <ScalarProperty Name="en_name" ColumnName="en_name" />
+                <ScalarProperty Name="stock_status1" ColumnName="stock_status" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Stock_Transaction_Records">
+            <EntityTypeMapping TypeName="StockAnalyseDBModel.Stock_Transaction_Records">
+              <MappingFragment StoreEntitySet="Stock_Transaction_Records">
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="ts_code" ColumnName="ts_code" />
+                <ScalarProperty Name="trade_date" ColumnName="trade_date" />
+                <ScalarProperty Name="open" ColumnName="open" />
+                <ScalarProperty Name="high" ColumnName="high" />
+                <ScalarProperty Name="low" ColumnName="low" />
+                <ScalarProperty Name="close" ColumnName="close" />
+                <ScalarProperty Name="pre_close" ColumnName="pre_close" />
+                <ScalarProperty Name="change" ColumnName="change" />
+                <ScalarProperty Name="pct_chg" ColumnName="pct_chg" />
+                <ScalarProperty Name="vol" ColumnName="vol" />
+                <ScalarProperty Name="amount" ColumnName="amount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

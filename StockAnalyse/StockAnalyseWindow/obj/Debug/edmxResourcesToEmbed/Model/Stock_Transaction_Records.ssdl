@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StockTransactionRecords.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Stock_Transaction_Records">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ts_code" Type="varchar" MaxLength="255" />
+    <Property Name="trade_date" Type="varchar" MaxLength="255" />
+    <Property Name="open" Type="float" />
+    <Property Name="high" Type="float" />
+    <Property Name="low" Type="float" />
+    <Property Name="close" Type="float" />
+    <Property Name="pre_close" Type="float" />
+    <Property Name="change" Type="float" />
+    <Property Name="pct_chg" Type="float" />
+    <Property Name="vol" Type="float" />
+    <Property Name="amount" Type="float" />
+  </EntityType>
+  <EntityContainer Name="StockTransactionRecordsStoreContainer">
+    <EntitySet Name="Stock_Transaction_Records" EntityType="Self.Stock_Transaction_Records" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

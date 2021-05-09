@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "qFNaewPkftDIlTqTSvM63KCSGBPZdMzbXi6j3hyRb4oftOKlLeNNok8Cn2KxwM4w5nQinEbSY9nNwb8IZDCKdw==",
+  "success": true,
+  "projectFilePath": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseApiHelper\\StockAnalyseApiHelper.csproj",
+  "expectedPackageFiles": [
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

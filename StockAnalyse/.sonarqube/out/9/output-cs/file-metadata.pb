@@ -1,0 +1,12 @@
+Y
+PE:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\CustomControl1.csutf-8`
+WE:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\LineChart\Candle.xaml.csutf-8^
+UE:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\LineChart\DataModel.csutf-8c
+ZE:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\LineChart\LineChart.xaml.csutf-8b
+YE:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\Properties\AssemblyInfo.csutf-8j
+_E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\Properties\Resources.Designer.csutf-8i
+^E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\Properties\Settings.Designer.csutf-8i
+^E:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\LineChart\Candle.g.csutf-8l
+aE:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\LineChart\LineChart.g.csutf-8t
+iE:\SoftProjects\StockAnalyse\StockAnalyse\PublicControlLibrary\obj\Debug\GeneratedInternalTypeHelper.g.csutf-8g
+\C:\Users\Administrator\AppData\Local\Temp\.NETFramework,Version=v4.7.2.AssemblyAttributes.csutf-8

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StockAnalyseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Stock_List">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" />
+    <Property Name="ts_code" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="symbol" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="area" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="industry" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="fullname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="enname" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="market" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="exchange" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="curr_type" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="list_status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="list_date" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="delist_date" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="is_hs" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="Stock_Status" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="StockAnalyseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Stock_List" EntityType="Self.Stock_List" />
+  </EntityContainer>
+</Schema>
