@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseApiHelper\\StockAnalyseApiHelper.csproj": {}
+    "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseEvent\\StockAnalyseEvent.csproj": {}
   },
   "projects": {
-    "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseApiHelper\\StockAnalyseApiHelper.csproj": {
+    "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseEvent\\StockAnalyseEvent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseApiHelper\\StockAnalyseApiHelper.csproj",
-        "projectName": "StockAnalyseApiHelper",
-        "projectPath": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseApiHelper\\StockAnalyseApiHelper.csproj",
+        "projectUniqueName": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseEvent\\StockAnalyseEvent.csproj",
+        "projectName": "StockAnalyseEvent",
+        "projectPath": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseEvent\\StockAnalyseEvent.csproj",
         "packagesPath": "F:\\Users\\HueiFeng\\.nuget\\packages",
-        "outputPath": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseApiHelper\\obj\\",
+        "outputPath": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseEvent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,11 @@
         "frameworks": {
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseModel\\StockAnalyseModel.csproj": {
+                "projectPath": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseModel\\StockAnalyseModel.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -46,9 +50,9 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
-            "Newtonsoft.Json": {
+            "Prism.Core": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[7.2.0.1422, )"
             }
           },
           "imports": [
@@ -63,6 +67,16 @@
           "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseModel\\StockAnalyseModel.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseModel\\StockAnalyseModel.csproj",
+        "projectName": "StockAnalyseModel",
+        "projectPath": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseModel\\StockAnalyseModel.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

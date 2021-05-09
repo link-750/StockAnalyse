@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oAbqYp5kW7RJyUl8+FhCdMxxxFVpQtll9HF+rdnt88zZ2c3eDoVt47fSxpBovrkJJDx+j5wTO6V1lyEJMkH6mQ==",
+  "dgSpecHash": "5Lmugv3XuqOjv/hHV3LG2duALsD27qQr0EGT/OMz9yCy3FWqOriDt7KAwUIbKLQRKM8hkCL0rrlak3g0VgEjvw==",
   "success": true,
   "projectFilePath": "E:\\SoftProjects\\StockAnalyse\\StockAnalyse\\StockAnalyseApiHelper\\StockAnalyseApiHelper.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "F:\\Users\\HueiFeng\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": []
 }
